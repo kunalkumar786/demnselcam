@@ -65,8 +65,6 @@ dependencies {
     
     //implementation project(":v9kmedia")
 
-    implementation mobileUIDependencies.v9kmedia
-
     implementation mobileUIDependencies.javaxInject
     implementation mobileUIDependencies.androidAnnotation
     implementation mobileUIDependencies.kotlin
