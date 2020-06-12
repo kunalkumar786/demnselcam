@@ -1,0 +1,51 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.Nabstar'
+
+android {
+
+    compileSdkVersion = 28
+    buildToolsVersion = "28.0.3"
+
+    defaultConfig {
+
+        minSdkVersion 21
+        targetSdkVersion 28
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+dependencies {
+
+    def daggerVersion = "2.11"
+    def javaxAnnotationVersion = "1.0"
+    def javaxInjectVersion = "1"
+    def greenrobotVersion = "3.0.0"
+    def androidAnnotationVersion = "21.0.3"
+
+    implementation "org.greenrobot:eventbus:${greenrobotVersion}"
+    implementation "com.google.dagger:dagger:${daggerVersion}"
+    implementation "com.google.dagger:dagger-android-support:${daggerVersion}"
+    implementation "javax.annotation:jsr250-api:${javaxAnnotationVersion}"
+    implementation "javax.inject:javax.inject:${javaxInjectVersion}"
+    implementation "com.android.support:support-annotations:${androidAnnotationVersion}"
+
+    annotationProcessor "com.google.dagger:dagger-compiler:${daggerVersion}"
+    annotationProcessor "com.google.dagger:dagger-android-processor:${daggerVersion}"
+
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    testImplementation 'junit:junit:4.12'
+}

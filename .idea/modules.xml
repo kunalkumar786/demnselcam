@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/demnselcam.iml" filepath="$PROJECT_DIR$/demnselcam.iml" group="demnselcam" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-ui/mobile-ui.iml" filepath="$PROJECT_DIR$/mobile-ui/mobile-ui.iml" group="demnselcam/mobile-ui" />
+      <module fileurl="file://$PROJECT_DIR$/v9kffmpegutils/v9kffmpegutils.iml" filepath="$PROJECT_DIR$/v9kffmpegutils/v9kffmpegutils.iml" group="demnselcam/v9kffmpegutils" />
+      <module fileurl="file://$PROJECT_DIR$/v9kmedia/v9kmedia.iml" filepath="$PROJECT_DIR$/v9kmedia/v9kmedia.iml" group="demnselcam/v9kmedia" />
+      <module fileurl="file://$PROJECT_DIR$/v9kview/v9kview.iml" filepath="$PROJECT_DIR$/v9kview/v9kview.iml" group="demnselcam/v9kview" />
+    </modules>
+  </component>
+</project>

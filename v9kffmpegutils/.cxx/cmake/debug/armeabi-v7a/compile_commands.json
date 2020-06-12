@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/lukzy/project/demnselcam/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a",
+  "command": "/home/lukzy/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi21 --gcc-toolchain=/home/lukzy/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/lukzy/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dv9kffmpegutils_EXPORTS -I../../../../src/main/cpp/ffmpeg/lib/armeabi-v7a/include -I../../../../src/main/cpp/x264/lib/armeabi-v7a/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++11 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/v9kffmpegutils.dir/src/main/cpp/v9kffmpegutils.cpp.o -c /home/lukzy/project/demnselcam/v9kffmpegutils/src/main/cpp/v9kffmpegutils.cpp",
+  "file": "/home/lukzy/project/demnselcam/v9kffmpegutils/src/main/cpp/v9kffmpegutils.cpp"
+}
+]

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/fragment_container" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.mobile_ui.camera.CameraGLView
+        android:id="@+id/camera_glview" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/overlay_asset"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar android:id="@+id/progress_bar"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="8.0dip"
+            android:max="15"
+            android:progress="0"
+            android:indeterminate="false"
+            android:progressDrawable="@drawable/progress_bar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="?android:progressBarStyleHorizontal" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/cancel_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40.0dip"
+            app:layout_constraintBottom_toBottomOf="@+id/record"
+            app:layout_constraintLeft_toRightOf="@+id/record"
+            app:layout_constraintTop_toTopOf="@+id/record"
+            app:srcCompat="@drawable/twotone_cancel_24px" />
+
+        <Button android:id="@+id/record"
+            android:background="@drawable/round_button"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_marginTop="10.0dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/done_icon"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20.0dip"
+            app:layout_constraintBottom_toBottomOf="@+id/record"
+            app:layout_constraintLeft_toRightOf="@+id/cancel_icon"
+            app:layout_constraintTop_toTopOf="@+id/record"
+            app:srcCompat="@drawable/check_circle_24px" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/recent_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40.0dip"
+            app:layout_constraintBottom_toBottomOf="@+id/record"
+            app:layout_constraintRight_toLeftOf="@+id/record"
+            app:layout_constraintTop_toTopOf="@+id/record"
+            app:srcCompat="@drawable/image_placeholder" />
+
+        <LinearLayout android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/camera_widget_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24.0dip"
+            android:layout_marginBottom="218.0dip"
+            app:layout_constraintBottom_toTopOf="@+id/cancel_icon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/settings_layout"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/settings" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/settings_text"
+                    android:textSize="12.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.0dip"
+                    android:text="Settings"
+                    style="@style/InfoOverlayText" />
+
+            </LinearLayout>
+
+            <LinearLayout android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/switch_camera_layout"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:layout_marginTop="10.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/settings_layout">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/switch_camera_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/switch_camera" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/switch_camera_text"
+                    android:textSize="12.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.0dip"
+                    android:text="Flip"
+                    style="@style/InfoOverlayText" />
+
+            </LinearLayout>
+
+            <LinearLayout android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/flash_auto_layout"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:layout_marginTop="10.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/switch_camera_layout">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/flash_auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/flash_auto" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/flash_auto_text"
+                    android:textSize="12.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.0dip"
+                    android:text="Flash"
+                    style="@style/InfoOverlayText" />
+            </LinearLayout>
+
+            <LinearLayout android:gravity="center"
+                android:orientation="vertical"
+                android:id="@+id/slow_motion_layout"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:layout_marginTop="10.0dip"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/flash_auto_layout">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/slow_motion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/slow_motion" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/slow_motion_text"
+                    android:textSize="12.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.0dip"
+                    android:text="Slow Mo"
+                    style="@style/InfoOverlayText" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/select_music_layout"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dip"
+            app:layout_constraintBottom_toTopOf="@+id/button_group"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/select_music"
+                android:background="@drawable/ic_music_shadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/select_music_text"
+                android:textSize="12.0dip"
+                android:clickable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5.0dip"
+                android:text="Select Music"
+                style="@style/InfoOverlayText" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/close"
+            android:background="?android:selectableItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginTop="24.0dip"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/round_clear" />
+
+        <com.addisonelliott.segmentedbutton.SegmentedButtonGroup
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/button_group"
+            android:background="@color/transprent_black"
+            android:visibility="gone"
+            android:layout_width="292.0dip"
+            android:layout_height="34.0dip"
+            android:layout_marginBottom="40.0dip"
+            app:dividerPadding="10.0dip"
+            app:dividerWidth="1.0dip"
+            app:layout_constraintBottom_toTopOf="@+id/record"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:position="0"
+            app:radius="30.0dip"
+            app:ripple="false"
+            app:selectedBackground="@color/grey_400"
+            app:selectionAnimationDuration="1">
+
+            <com.addisonelliott.segmentedbutton.SegmentedButton
+                android:padding="10.0dip"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                app:drawableGravity="top"
+                app:selectedTextColor="@color/black"
+                app:text="0.3x"
+                app:textColor="@color/white" />
+
+            <com.addisonelliott.segmentedbutton.SegmentedButton
+                android:padding="10.0dip"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                app:drawableGravity="top"
+                app:selectedTextColor="@color/black"
+                app:text="0.5x"
+                app:textColor="@color/white" />
+
+            <com.addisonelliott.segmentedbutton.SegmentedButton
+                android:padding="10.0dip"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                app:drawableGravity="top"
+                app:selectedTextColor="@color/black"
+                app:text="1x"
+                app:textColor="@color/white" />
+
+            <com.addisonelliott.segmentedbutton.SegmentedButton
+                android:padding="10.0dip"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                app:drawableGravity="top"
+                app:selectedTextColor="@color/black"
+                app:text="2x"
+                app:textColor="@color/white" />
+
+            <com.addisonelliott.segmentedbutton.SegmentedButton
+                android:padding="10.0dip"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                app:drawableGravity="top"
+                app:selectedTextColor="@color/black"
+                app:text="3x"
+                app:textColor="@color/white" />
+
+        </com.addisonelliott.segmentedbutton.SegmentedButtonGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

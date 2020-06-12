@@ -1,0 +1,74 @@
+plugins {
+    id "com.android.application"
+}
+
+apply plugin: "androidx.navigation.safeargs"
+
+android {
+
+    defaultConfig {
+
+        applicationId "com.app"
+        vectorDrawables.useSupportLibrary = true
+
+    }
+
+    buildTypes {
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
+            minifyEnabled true
+            useProguard true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+
+    dataBinding {
+
+        enabled = true
+
+    }
+
+    compileOptions {
+
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+
+    }
+
+    lintOptions {
+
+        abortOnError false
+
+    }
+
+}
+
+tasks.whenTaskAdded { task ->
+
+    if (task.name == "lint") {
+
+        task.enabled = false
+
+    }
+
+}
+
+dependencies {
+
+    def lifecycle_version = "2.0.0"
+    def latest_version = "3.1.6"
+    def nav_version = "2.2.0"
+
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
+
+    testImplementation "androidx.arch.core:core-testing:$lifecycle_version"
+
+}

@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/lukzy/Android/Sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/home/lukzy/Android/Sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/home/lukzy/project/demnselcam/v9kffmpegutils/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/lukzy/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/lukzy/project/demnselcam/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/lukzy/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/lukzy/project/demnselcam/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "v9kffmpegutils-Release-armeabi-v7a": {
+      "artifactName": "v9kffmpegutils",
+      "buildCommand": "/home/lukzy/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/lukzy/project/demnselcam/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a\" v9kffmpegutils",
+      "abi": "armeabi-v7a",
+      "output": "/home/lukzy/project/demnselcam/v9kffmpegutils/build/intermediates/cmake/release/obj/armeabi-v7a/libv9kffmpegutils.so"
+    }
+  }
+}

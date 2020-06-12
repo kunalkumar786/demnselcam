@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/cameraFragment">
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.mobile_ui.view.CameraFragment"
+        android:label="camera_fragment"
+        tools:layout="@layout/camera_fragment" >
+        <action
+            android:id="@+id/action_cameraFragment_to_ijkplayerFragment"
+            app:destination="@id/ijkplayerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ijkplayerFragment"
+        android:name="com.mobile_ui.view.IjkplayerFragment"
+        android:label="playback_fragment"
+        tools:layout="@layout/playback_fragment" >
+    </fragment>
+
+</navigation>

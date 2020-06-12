@@ -1,0 +1,100 @@
+apply plugin: "com.android.application"
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-kapt"
+apply plugin: "androidx.navigation.safeargs"
+
+android {
+
+    def globalConfig = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfig["compileSdkVersion"]
+    buildToolsVersion globalConfig["buildToolsVersion"]
+
+    defaultConfig {
+
+        applicationId "com.mobile_ui"
+        vectorDrawables.useSupportLibrary = true
+
+        minSdkVersion globalConfig["minSdkVersion"]
+        targetSdkVersion globalConfig["targetSdkVersion"]
+
+        ndk {
+            abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a'
+        }
+
+    }
+
+    buildTypes {
+        release {
+
+        }
+
+        debug {
+
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+tasks.whenTaskAdded { task ->
+    if (task.name == "lint") {
+        task.enabled = false
+    }
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+dependencies {
+
+    def mobileUIDependencies = rootProject.ext.mobileUIDependencies
+    def mobileUITestDependencies = rootProject.ext.mobileUITestDependencies
+    
+    //implementation project(":v9kmedia")
+
+    implementation mobileUIDependencies.v9kmedia
+
+    implementation mobileUIDependencies.javaxInject
+    implementation mobileUIDependencies.androidAnnotation
+    implementation mobileUIDependencies.kotlin
+
+    implementation mobileUIDependencies.dagger
+    implementation mobileUIDependencies.daggerSupport
+
+    implementation mobileUIDependencies.legacySupport
+    implementation mobileUIDependencies.appCompat
+    implementation mobileUIDependencies.supportRecyclerView
+    implementation mobileUIDependencies.constraintLayout
+
+    implementation mobileUIDependencies.navCompFragment
+    implementation mobileUIDependencies.navCompUI
+
+    implementation mobileUIDependencies.supportDesign
+    implementation mobileUIDependencies.segmentedButton
+    implementation mobileUIDependencies.ijkplayer
+    implementation mobileUIDependencies.ijkplayerArm7a
+    implementation mobileUIDependencies.greenrobot
+    implementation mobileUIDependencies.nbspPicker
+    implementation mobileUIDependencies.supportRecyclerView
+
+    implementation mobileUIDependencies.archExtensions
+    implementation mobileUIDependencies.archRuntime
+
+    kapt mobileUIDependencies.daggerProcessor
+    kapt mobileUIDependencies.daggerCompiler
+    kapt mobileUIDependencies.archCompiler
+
+}
