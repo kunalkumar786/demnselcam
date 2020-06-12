@@ -4,7 +4,7 @@ import android.app.Application
 import android.os.Environment
 import android.util.Log
 import androidx.lifecycle.AndroidViewModel
-import com.v9kmedia.v9kstudio.utils.TrimAudioEvent
+import com.v9kstudio.utils.TrimAudioEvent
 import org.greenrobot.eventbus.Subscribe
 
 class IjkplayerViewModel(application: Application) : AndroidViewModel(application) {

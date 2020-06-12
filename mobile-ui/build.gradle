@@ -63,7 +63,9 @@ dependencies {
     def mobileUIDependencies = rootProject.ext.mobileUIDependencies
     def mobileUITestDependencies = rootProject.ext.mobileUITestDependencies
     
-    //implementation project(":v9kmedia")
+    implementation project(":v9kmedia")
+
+    implementation project(":v9kstudio")
 
     implementation mobileUIDependencies.javaxInject
     implementation mobileUIDependencies.androidAnnotation
