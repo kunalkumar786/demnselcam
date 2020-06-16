@@ -2,9 +2,9 @@ ext {
 
     // android
 
-    compileSdkVersion = 28
-    targetSdkVersion = 28
-    buildToolsVersion = "28.0.3" 
+    compileSdkVersion = 29
+    targetSdkVersion = 29
+    buildToolsVersion = "29.0.3"
     minSdkVersion = 21
     kotlinVersion = "1.3.71"
 
@@ -38,7 +38,7 @@ ext {
     segmentedButtonVersion = "3.1.6"
     nbspVersion = '1.8'
     okHttpVersion = '3.8.1'
-    v9kmediaVersion = 'v0.1.0'
+    v9kmediaVersion = '0.1.1'
 
     // testing
 
@@ -60,7 +60,7 @@ ext {
         kotlin: "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${kotlinVersion}",
 
         v9kmedia: "com.github.Nabstar:v9kmedia:${v9kmediaVersion}",
-            
+
         javaxAnnotation: "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
         javaxInject: "javax.inject:javax.inject:${javaxInjectVersion}",
         androidAnnotation: "com.android.support:support-annotations:${androidAnnotationVersion}",

@@ -6,38 +6,446 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="com.mobile_ui" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10f9fb33-e2cb-4a89-8847-a25be1a49769" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_4_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Nabstar_v9kmedia_0_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Nabstar_v9kmedia_v9krecorder_0_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_Nabstar_v9kmedia_v9kview_0_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_3_6_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_adapters_4_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_common_3_6_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_3_6_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_databinding_runtime_4_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_3_6_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_1_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_addisonElliott_RippleDrawable_3_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_addisonElliott_RippleDrawable_3_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_addisonelliott_SegmentedButton_3_1_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_addisonelliott_SegmentedButton_3_1_6_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_11_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_2_11_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_2_20_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_2_20_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_support_2_11_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_support_2_20_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_android_support_2_20_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nbsp_library_1_8_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_nbsp_library_1_8_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_jsr250_api_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__tv_danmaku_ijk_media_ijkplayer_armv7a_0_8_8_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__tv_danmaku_ijk_media_ijkplayer_armv7a_0_8_8_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__tv_danmaku_ijk_media_ijkplayer_java_0_8_8_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__tv_danmaku_ijk_media_ijkplayer_java_0_8_8_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demnselcam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demnselcam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile-ui/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile-ui/mobile-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/mobile-ui.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/viewmodel/IjkplayerViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/viewmodel/IjkplayerViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/assets/IVC_FShader_Preview.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/assets/IVC_FShader_Weighted.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/assets/IVC_VShader_Preview.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/MainHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/MainHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/camera/CameraGLView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/camera/CameraHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/camera/CameraThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/utilities/IVCGLLib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/view/CameraFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/view/CameraFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/view/IjkplayerFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/java/com/mobile_ui/viewmodel/IjkplayerViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/anim/custom_overshoot_interpolate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/anim/enter_from_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/anim/exit_to_right.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/add_music.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/album_cover_two_door.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/back_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/close.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/custom_border.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/done.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/flash_off.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/flash_on.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/library_music_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/mixer_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/round_corner_preview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/round_done.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/round_pause.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/round_play.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/save_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/snapshot_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/trim_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/drawable/volume_icon.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/layout/camera_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/res/layout/camera_fragment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/layout/playback_fragment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/navigation/camera_nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/res/navigation/camera_nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile-ui/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mobile-ui/src/main/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/v9kffmpegutils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/v9kffmpegutils/v9kffmpegutils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9kmedia/v9kmedia.iml" beforeDir="false" afterPath="$PROJECT_DIR$/v9kmedia/v9kmedia.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v9kstudio/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/v9kstudio/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/android_gradle_build_v9kffmpegutils_arm64-v8a.command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/android_gradle_build_v9kffmpegutils_arm64-v8a.stderr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/android_gradle_build_v9kffmpegutils_arm64-v8a.stdout.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/cmake_server_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/armeabi/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/mips/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/mips64/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/x86/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/debug/x86_64/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/arm64-v8a/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/android_gradle_build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/build_command.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/build_model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/build_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/cmake_server_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/json_generation_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi-v7a/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/armeabi/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/mips/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/mips64/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/x86/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/cmake/release/x86_64/pre-ndk-r15-wrapper-android.toolchain.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/.cxx/ndk_locator_record.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/ac3_parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/adts_parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/avcodec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/avdct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/avfft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/d3d11va.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/dirac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/dv_profile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/dxva2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/jni.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/mediacodec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/qsv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/vaapi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/vdpau.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/videotoolbox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/vorbis_parser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavcodec/xvmc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavdevice/avdevice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavdevice/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavfilter/avfilter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavfilter/buffersink.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavfilter/buffersrc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavfilter/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavformat/avformat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavformat/avio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavformat/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/adler32.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/aes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/aes_ctr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/attributes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/audio_fifo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/avassert.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/avconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/avstring.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/avutil.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/base64.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/blowfish.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/bprint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/bswap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/buffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/camellia.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/cast5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/channel_layout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/cpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/crc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/des.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/dict.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/display.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/downmix_info.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/encryption_info.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/error.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/eval.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/ffversion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/fifo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/file.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/frame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hash.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hmac.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext_cuda.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext_d3d11va.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext_drm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext_dxva2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext_mediacodec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext_qsv.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext_vaapi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext_vdpau.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/hwcontext_videotoolbox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/imgutils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/intfloat.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/intreadwrite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/lfg.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/log.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/lzo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/macros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/mastering_display_metadata.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/mathematics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/md5.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/mem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/motion_vector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/murmur3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/opt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/parseutils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/pixdesc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/pixelutils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/pixfmt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/random_seed.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/rational.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/rc4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/replaygain.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/ripemd.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/samplefmt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/sha.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/sha512.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/spherical.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/stereo3d.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/tea.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/threadmessage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/time.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/timecode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/timestamp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/twofish.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libavutil/xtea.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libpostproc/postprocess.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libpostproc/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libswresample/swresample.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libswresample/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libswscale/swscale.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/include/libswscale/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/libavcodec-57.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/libavcodec-58.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/libavformat-57.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/libavformat-58.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/libavutil-56.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/ffmpeg/lib/armeabi-v7a/libswresample-3.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/logjam.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/v9kffmpegutils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/x264/lib/armeabi-v7a/include/x264.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/x264/lib/armeabi-v7a/include/x264_config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/cpp/x264/lib/armeabi-v7a/libx264.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/java/com/v9kffmpegutils/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/java/com/v9kffmpegutils/SnapshotToolkit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kffmpegutils/v9kffmpegutils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/androidTest/java/com/v9kmedia/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9kplayer/buffer/DataChunk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9kplayer/buffer/DataChunkFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/V9kRecorder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/V9kRecorderEvents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/V9kRecorderStates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/buffer/AudioChunk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/buffer/DataChunk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/buffer/DataChunkFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/buffer/VideoChunk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/encoder/AudioFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/encoder/AudioPoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/encoder/FilePoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/encoder/MediaAudioEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/encoder/MediaAudioEncoderHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/encoder/MediaEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/encoder/MediaVideoEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/encoder/MediaVideoEncoderHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/encoder/MicPoller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/muxer/AudioMuxer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/muxer/MediaMuxerFrontend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/muxer/MediaMuxerWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/muxer/VideoMuxer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/utils/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/utils/EGLBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/utils/GLDrawer2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/utils/RecorderManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/utils/RenderHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/utils/StateManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/main/java/com/v9kmedia/v9krecorder/utils/V9krecorderutil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/src/test/java/com/v9kmedia/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kmedia/v9kmedia.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kstudio/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kstudio/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kstudio/src/main/java/com/v9kstudio/utils/AudioCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kstudio/src/main/java/com/v9kstudio/utils/AudioDecodeRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kstudio/src/main/java/com/v9kstudio/utils/AudioEncodeRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kstudio/src/main/java/com/v9kstudio/utils/OnTrimedCompleted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kstudio/src/main/java/com/v9kstudio/utils/TrimAudioEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kstudio/src/main/java/com/v9kstudio/utils/TrimAudioFileTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kstudio/v9kstudio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kview/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kview/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kview/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/v9kview/v9kview.iml" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="535deae6" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -68,10 +476,18 @@
   </component>
   <component name="ProjectId" id="1d8sdHysckEwR3bXgkMazAjX0Hd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="535deae6" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-06-15T18:15:11.197Z" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/v9kmedia" />
+    <property name="last_opened_file_path" value="$USER_HOME$/minimal-recreated/app/src/main/java/com/example/snapshot/CameraFragment.java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -81,18 +497,6 @@
     <option name="MODULE_TAB" value="Properties" />
     <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -184,5 +588,47 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/v9kmedia" />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="608" y="176" width="384" height="579" key="#com.intellij.ide.util.MemberChooser" timestamp="1592083892882">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="608" y="176" width="384" height="579" key="#com.intellij.ide.util.MemberChooser/0.27.1600.873@0.27.1600.873" timestamp="1592083892882" />
+    <state x="533" y="213" width="534" height="505" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592248970636">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="533" y="213" width="534" height="505" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1600.873@0.27.1600.873" timestamp="1592248970636" />
+    <state x="554" y="207" width="492" height="516" key="FileChooserDialogImpl" timestamp="1592282206483">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="554" y="207" width="492" height="516" key="FileChooserDialogImpl/0.27.1600.873@0.27.1600.873" timestamp="1592282206483" />
+    <state width="1558" height="218" key="GridCell.Tab.0.bottom" timestamp="1592329917059">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state width="1558" height="218" key="GridCell.Tab.0.bottom/0.27.1600.873@0.27.1600.873" timestamp="1592329917059" />
+    <state width="1558" height="218" key="GridCell.Tab.0.center" timestamp="1592329917058">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state width="1558" height="218" key="GridCell.Tab.0.center/0.27.1600.873@0.27.1600.873" timestamp="1592329917058" />
+    <state width="1558" height="218" key="GridCell.Tab.0.left" timestamp="1592329917058">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state width="1558" height="218" key="GridCell.Tab.0.left/0.27.1600.873@0.27.1600.873" timestamp="1592329917058" />
+    <state width="1558" height="218" key="GridCell.Tab.0.right" timestamp="1592329917059">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state width="1558" height="218" key="GridCell.Tab.0.right/0.27.1600.873@0.27.1600.873" timestamp="1592329917059" />
+    <state x="466" y="291" key="com.intellij.ide.util.TipDialog" timestamp="1592233424330">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="466" y="291" key="com.intellij.ide.util.TipDialog/0.27.1600.873@0.27.1600.873" timestamp="1592233424330" />
+    <state x="459" y="208" key="run.anything.popup" timestamp="1592250054318">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="459" y="208" key="run.anything.popup/0.27.1600.873@0.27.1600.873" timestamp="1592250054318" />
+    <state x="463" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1592250516957">
+      <screen x="0" y="27" width="1600" height="873" />
+    </state>
+    <state x="463" y="211" width="672" height="678" key="search.everywhere.popup/0.27.1600.873@0.27.1600.873" timestamp="1592250516957" />
   </component>
 </project>

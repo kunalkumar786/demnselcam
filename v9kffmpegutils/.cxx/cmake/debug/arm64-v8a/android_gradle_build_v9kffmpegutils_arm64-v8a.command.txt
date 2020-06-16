@@ -1,7 +1,0 @@
-Executable : /home/lukzy/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
-arguments : 
--C
-/home/lukzy/project/demnselcam/v9kffmpegutils/.cxx/cmake/debug/arm64-v8a
-v9kffmpegutils
-jvmArgs : 
-

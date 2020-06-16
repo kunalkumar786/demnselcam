@@ -1,37 +1,29 @@
 package com.mobile_ui
 
+import android.content.Context
 import android.os.Handler
 import android.os.Message
 import android.util.Log
 import android.view.View
 import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import android.widget.Button
-import android.widget.ProgressBar
-import com.mobile_ui.camera.CameraGLView
+import com.v9kmedia.v9kview.CameraGLView
 import com.mobile_ui.view.CameraFragment
-import com.v9kmedia.v9krecorder.V9kRecorderEvents
 import com.v9kmedia.v9krecorder.encoder.MediaVideoEncoder
 import java.lang.ref.WeakReference
 
-/*** injecting these components
- *import com.example.snapshot.CameraGLView;
- *import com.example.snapshot.encoder.MediaVideoEncoder;
- *import com.example.snapshot.encoder.MediaVideoEncoder.MediaVideoEncoderListener;
- ****/
 /**
  * Custom message handler for main UI thread.
  *
- * Used to handle camera preview "frame available" notifications, and implement the
- * blinking "recording" text.  Receives callback messages from the encoder thread.
+ * Used to handle camera preview, and implement the
+ * Receives callback messages from recorder
  */
 
-class MainHandler(fragment: CameraFragment, cameraView: CameraGLView) : Handler(), V9kRecorderEvents {
+class MainHandler(private val context: Context, fragment: CameraFragment, private val cameraView: CameraGLView) : Handler(),  MediaVideoEncoder.MediaVideoEncoderListener {
 
-    private val progressCount = 15
-    private val cameraView: CameraGLView = cameraView
     private var recordButton: Button? = null
     var scaleButton: Animation? = null
-    var progressBar: ProgressBar? = null
     private val mWeakCameraFragment: WeakReference<CameraFragment> = WeakReference(fragment)
 
     // MediaVideoEncoderListener, called on encoder thread
@@ -70,13 +62,14 @@ class MainHandler(fragment: CameraFragment, cameraView: CameraGLView) : Handler(
     // MainUiListener, called on Main Thread
     private fun playRecordAnimation() {
         recordButton = mWeakCameraFragment.get()!!.view!!.findViewById<View>(R.id.record) as Button
-        //scaleButton = AnimationUtils.loadAnimation(context, R.anim.animate_button)
+        scaleButton = AnimationUtils.loadAnimation(context, R.anim.animate_button)
         recordButton!!.startAnimation(scaleButton)
 
     }
 
     override fun handleMessage(msg: Message) {
         val fragment = mWeakCameraFragment.get()
+
         if (fragment == null) {
             if (DEBUG) Log.d(TAG, "Got message for dead fragment")
             return

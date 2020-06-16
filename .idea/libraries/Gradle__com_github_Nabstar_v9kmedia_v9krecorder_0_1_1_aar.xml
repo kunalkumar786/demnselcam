@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Nabstar.v9kmedia:v9krecorder:0.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7945bd91a05df995a3b6b903d700c96/jetified-v9krecorder-4dc262270f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e7945bd91a05df995a3b6b903d700c96/jetified-v9krecorder-4dc262270f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

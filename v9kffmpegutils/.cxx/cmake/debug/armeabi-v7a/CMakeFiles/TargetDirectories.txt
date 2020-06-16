@@ -1,3 +1,0 @@
-/home/lukzy/project/demnselcam/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-/home/lukzy/project/demnselcam/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
-/home/lukzy/project/demnselcam/v9kffmpegutils/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/v9kffmpegutils.dir

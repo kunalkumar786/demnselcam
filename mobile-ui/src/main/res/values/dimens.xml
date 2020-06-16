@@ -78,8 +78,6 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
     <dimen name="abc_text_size_title_material">20.0sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
-    <dimen name="activity_horizontal_margin">16.0dip</dimen>
-    <dimen name="activity_vertical_margin">16.0dip</dimen>
     <dimen name="cardview_compat_inset_shadow">1.0dip</dimen>
     <dimen name="cardview_default_elevation">2.0dip</dimen>
     <dimen name="cardview_default_radius">2.0dip</dimen>
@@ -90,15 +88,6 @@
     <dimen name="compat_control_corner_material">2.0dip</dimen>
     <dimen name="compat_notification_large_icon_max_height">320.0dip</dimen>
     <dimen name="compat_notification_large_icon_max_width">320.0dip</dimen>
-    <dimen name="cover_size_mini">40.0dip</dimen>
-    <dimen name="default_title_indicator_clip_padding">144.0dip</dimen>
-    <dimen name="default_title_indicator_footer_indicator_height">4.0dip</dimen>
-    <dimen name="default_title_indicator_footer_indicator_underline_padding">20.0dip</dimen>
-    <dimen name="default_title_indicator_footer_line_height">2.0dip</dimen>
-    <dimen name="default_title_indicator_footer_padding">16.0dip</dimen>
-    <dimen name="default_title_indicator_text_size">16.0dip</dimen>
-    <dimen name="default_title_indicator_title_padding">54.0dip</dimen>
-    <dimen name="default_title_indicator_top_padding">4.0dip</dimen>
     <dimen name="design_appbar_elevation">4.0dip</dimen>
     <dimen name="design_bottom_navigation_active_item_max_width">168.0dip</dimen>
     <dimen name="design_bottom_navigation_active_item_min_width">96.0dip</dimen>
@@ -145,7 +134,6 @@
     <dimen name="design_textinput_caption_translate_y">5.0dip</dimen>
     <item type="dimen" name="disabled_alpha_material_dark">0.3</item>
     <item type="dimen" name="disabled_alpha_material_light">0.26</item>
-    <dimen name="fab_vertical_margin">-20.0dip</dimen>
     <dimen name="fastscroll_default_thickness">8.0dip</dimen>
     <dimen name="fastscroll_margin">0.0dip</dimen>
     <dimen name="fastscroll_minimum_range">50.0dip</dimen>
@@ -156,7 +144,6 @@
     <item type="dimen" name="hint_alpha_material_light">0.38</item>
     <item type="dimen" name="hint_pressed_alpha_material_dark">0.7</item>
     <item type="dimen" name="hint_pressed_alpha_material_light">0.54</item>
-    <dimen name="inner_padding">8.0dip</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20.0dip</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800.0dip</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120.0dip</dimen>

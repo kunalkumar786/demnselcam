@@ -9,16 +9,6 @@
         android:name="com.mobile_ui.view.CameraFragment"
         android:label="camera_fragment"
         tools:layout="@layout/camera_fragment" >
-        <action
-            android:id="@+id/action_cameraFragment_to_ijkplayerFragment"
-            app:destination="@id/ijkplayerFragment" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/ijkplayerFragment"
-        android:name="com.mobile_ui.view.IjkplayerFragment"
-        android:label="playback_fragment"
-        tools:layout="@layout/playback_fragment" >
     </fragment>
 
 </navigation>

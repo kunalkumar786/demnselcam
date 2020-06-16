@@ -1,7 +1,6 @@
 package com.mobile_ui.view;
 
 import android.Manifest;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Build;
@@ -17,26 +16,21 @@ import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
-import androidx.appcompat.widget.AppCompatTextView;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 
-import com.addisonelliott.segmentedbutton.SegmentedButtonGroup;
-
-import com.mobile_ui.R;
-import com.mobile_ui.camera.CameraGLView;
 import com.mobile_ui.MainHandler;
+import com.mobile_ui.R;
+import com.mobile_ui.databinding.CameraFragmentBinding;
+import com.v9kmedia.v9krecorder.V9kRecorder;
+import com.v9kmedia.v9kview.CameraGLView;
 
-//import com.v9kmedia.v9krecorder.V9kRecorder;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
 
@@ -45,28 +39,29 @@ public class CameraFragment extends Fragment
 	private static final boolean DEBUG = true;	// TODO set false on release
 	private static final String TAG = "CameraFragment";
 
+	private CameraFragmentBinding cameraFragmentBinding;
+
     static int MAX_WIDTH = 1280;
     static int MAX_HEIGHT = 720;
+
+    private boolean recordingEnabled;
+    private boolean pauseEnabled;
+
+    private int recordingStatus;
+
 
     private static final int RECORDING_OFF = 0;
     private static final int RECORDING_ON = 1;
     private static final int RECORDING_RESUMED = 2;
     private static final int RECORDING_PAUSE = 3;
 
-    public LinearLayout mCameraWidgetLayout;
-    public AppCompatImageView mClearButton;
-    public AppCompatImageView mCloseButton;
     public AppCompatImageView mDoneButton;
-    private AppCompatTextView mSelectMusicText;
 
     private Button mRecordButton;
-    private NavController mNavController;
-    private LinearLayout mSwitchCameraLayout;
-    private LinearLayout mSelecMusicLayout;
 
-    private SegmentedButtonGroup mSegmentedButtonGroup;
+    private V9kRecorder recorder;
+
     public ProgressBar mProgressBar;
-    public String outputPath = "default path";
 
     private static final int REQUEST_VIDEO_PERMISSIONS = 1;
 
@@ -82,6 +77,7 @@ public class CameraFragment extends Fragment
     private MainHandler mHandler;
 
 	private CameraGLView mCameraGLView;
+
     private float mSecondsOfVideo;
 
     public CameraFragment() {
@@ -90,7 +86,6 @@ public class CameraFragment extends Fragment
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //getActivity().getSupportLoaderManager().initLoader(0, null, new MusicItemProvider());
     }
 
     public void onViewCreated(View view, Bundle savedInstanceState) {
@@ -101,66 +96,80 @@ public class CameraFragment extends Fragment
             requestVideoPermissions();
         }
 
-        mSelectMusicText = view.findViewById(R.id.select_music_text);
-
         setHeightWidth();
 
-		mCameraGLView = view.findViewById(R.id.camera_glview);
-        mNavController = Navigation.findNavController(view);
+		mCameraGLView = cameraFragmentBinding.cameraGlview;
 
-        mCloseButton = view.findViewById(R.id.close);
-		mSwitchCameraLayout = view.findViewById(R.id.switch_camera_layout);
-        mSelecMusicLayout = view.findViewById(R.id.select_music_layout);
-        mCameraWidgetLayout = view.findViewById(R.id.camera_widget_layout);
+        cameraFragmentBinding.settingsLayout.setOnClickListener(onClickListener);
+		cameraFragmentBinding.switchCameraLayout.setOnClickListener(onClickListener);
+		cameraFragmentBinding.flashAutoLayout.setOnClickListener(onClickListener);
+		cameraFragmentBinding.slowMotionLayout.setOnClickListener(onClickListener);
+        cameraFragmentBinding.selectMusicLayout.setOnClickListener(onClickListener);
 
-		mProgressBar = view.findViewById(R.id.progress_bar);
-		mRecordButton = view.findViewById(R.id.record);
-        mDoneButton = view.findViewById(R.id.done_icon);
-        mSegmentedButtonGroup = view.findViewById(R.id.button_group);
 
-		mCameraGLView.setVideoSize(MAX_WIDTH, MAX_HEIGHT);
-        mSwitchCameraLayout.setOnClickListener(onClickListener);
-        mSelecMusicLayout.setOnClickListener(onClickListener);
+		mProgressBar = cameraFragmentBinding.progressBar;
+		mRecordButton = cameraFragmentBinding.record;
+        mDoneButton = cameraFragmentBinding.doneIcon;
+
 		mCameraGLView.setOnClickListener(onClickListener);
         mDoneButton.setOnClickListener(onClickListener);
 		mRecordButton.setOnTouchListener(onTouchListener);
 
-        mHandler = new MainHandler(this, mCameraGLView);
+        mCameraGLView.setVideoSize(MAX_WIDTH, MAX_HEIGHT);
+
+        mHandler = new MainHandler(Objects.requireNonNull(getActivity()), this, mCameraGLView);
+
     }
 
 
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		return inflater.inflate(R.layout.camera_fragment, container, false);
+	public View onCreateView(@NotNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        cameraFragmentBinding = CameraFragmentBinding.inflate(inflater, container, false);
+        return cameraFragmentBinding.getRoot();
 	}
 
 	@Override
 	public void onResume() {
-		super.onResume();
-
         if(DEBUG) Log.d(TAG, "onResume:");
-
+		super.onResume();
 		mCameraGLView.onResume();
+
+        if (recordingEnabled) {
+            if(DEBUG) Log.d(TAG, "onResume:recordingStatus= " + true);
+            recordingStatus = RECORDING_RESUMED;
+        } else {
+            if(DEBUG) Log.d(TAG, "onResume:recordingStatus= " + false);
+            recordingStatus = RECORDING_OFF;
+        }
+
 	}
 
 	@Override
 	public void onPause() {
         if(DEBUG) Log.d(TAG, "onPause:");
 
-		mCameraGLView.onPause();
-
+		if(recordingEnabled) {
+            //pauseRecording();
+        }
+        mCameraGLView.onPause();
 		super.onPause();
 	}
+
+    @Override
+    public void onDestroyView() {
+        if(DEBUG) Log.d(TAG, "onDestroyView: ");
+        super.onDestroyView();
+        cameraFragmentBinding = null;
+    }
 
     private final OnClickListener onClickListener = new OnClickListener() {
 
         @Override
         public void onClick(final View view) {
-
-
             switch(view.getId()) {
 
                 case R.id.done_icon:
                     Toast.makeText(getActivity(), "done icon", Toast.LENGTH_SHORT).show();
+                    stopRecording();
                     break;
                 case R.id.flash_auto_layout:
                     Toast.makeText(getActivity(), "flash", Toast.LENGTH_SHORT).show();
@@ -179,7 +188,6 @@ public class CameraFragment extends Fragment
                     break;
             }
         }
-
     };
 
     private final GestureDetector gestureDetector = new GestureDetector(getActivity(), new GestureDetector.SimpleOnGestureListener() {
@@ -248,22 +256,19 @@ public class CameraFragment extends Fragment
                         updateControls();
                         if ((mHandler.sendMessage(mHandler.obtainMessage(
                                         MainHandler.MSG_PLAY_RECORD_ANIMATION)))) {
-
                             AsyncTask.execute(new Runnable() {
-
                                 @Override
                                 public void run() {
-
+                                    startRecording();
                                 }
-
                             });
                         }
-                        //if(DEBUG) Log.d(TAG, "started recording!");
                         return true;
                     } else if(event.getActionMasked() == MotionEvent.ACTION_UP) {
                         if(DEBUG) Log.d(TAG, "Button ACTION_UP!");
                         mRecordButton.clearAnimation();
                         updateControls();
+                        pauseRecording();
                         return true;
                     } else if(event.getActionMasked() == MotionEvent.ACTION_BUTTON_PRESS) {
 
@@ -278,8 +283,83 @@ public class CameraFragment extends Fragment
             }
             return gestureDetector.onTouchEvent(event);
         }
+
     };
 
+    private void startRecording() {
+
+        if(recordingEnabled)
+            recordingEnabled = false;
+
+        if(pauseEnabled)
+            pauseEnabled = false;
+
+        if(DEBUG) Log.d(TAG, "changePauseState to " + false);
+
+        mCameraGLView.changePauseState(pauseEnabled);
+
+        if(!recordingEnabled) {
+            switch(recordingStatus) {
+                case RECORDING_OFF:
+                    if(DEBUG) Log.d(TAG, "RECORDING_OFF: starting now");
+
+                    recorder = new V9kRecorder("movie", MAX_WIDTH, MAX_HEIGHT, mHandler);
+
+                    recorder.startRecording();
+
+                    recordingEnabled = recorder.isRecording();
+
+                    recordingStatus = RECORDING_ON;
+
+                    if(DEBUG) Log.d(TAG, "recordingEnabled: " + recordingEnabled);
+
+                    break;
+
+                case RECORDING_RESUMED:
+                    if(DEBUG) Log.d(TAG, "RECORDING_RESUMED: resuming now");
+                    mHandler.onResumed(recorder.getVideoEncoder());
+                    recordingStatus = RECORDING_ON;
+                    break;
+
+                case RECORDING_ON:
+                    if(DEBUG) Log.d(TAG, "RECORDING_ON: resuming now after pause");
+                    recorder.resumeRecording();
+                    break;
+
+                default:
+                    throw new RuntimeException("unknown status " + recordingStatus);
+            }
+        } else {
+            switch (recordingStatus) {
+                case RECORDING_ON:
+                case RECORDING_RESUMED:
+                    // stop recording
+                    if(DEBUG) Log.d(TAG, "STOP recording");
+                    recorder.stopRecording();
+                    recordingStatus = RECORDING_OFF;
+                    break;
+                case RECORDING_OFF:
+                    // yay
+                    break;
+                default:
+                    throw new RuntimeException("unknown status " + recordingStatus);
+            }
+        }
+
+    }
+
+    private void pauseRecording() {
+        if(recorder != null) {
+            mCameraGLView.changePauseState(!pauseEnabled);
+            recorder.pauseRecording();
+        }
+    }
+
+    private void stopRecording() {
+        if(recorder != null) {
+            recorder.stopRecording();
+        }
+    }
 
     public void updateBufferStatus(long durationUsec) {
         mSecondsOfVideo = (durationUsec / 1000000.0f);

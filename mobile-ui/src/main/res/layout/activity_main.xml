@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <androidx.constraintlayout.widget.ConstraintLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
-	android:id="@+id/camera_fragment_container"
     android:measureAllChildren="true"
     android:background="@android:color/transparent" 
 	android:layout_width="match_parent"

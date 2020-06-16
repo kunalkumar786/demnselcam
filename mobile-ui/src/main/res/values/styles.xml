@@ -17,7 +17,4 @@
         <item name="android:shadowDy">1.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
-    <style name="ColoredButton" parent="@style/Widget.AppCompat.Button">
-        <item name="colorButtonNormal">@color/pinkish_red</item>
-    </style>
 </resources>
